@@ -1,1 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="jumbotron bg-info">
+        <h1 class="text-white">Convert Pixel to REM</h1>
+        <div class="text-white">
+        <p>REM stands for 'Rapid eye Movement'. According to <a href="https://www.w3schools.com/cssref/css_units.asp" target="_blank" class="text-warning">W3C</a>, one unit is equal to the computed value of font-size on the root element. When specified on the font-size property of the root element, the rem units refer to the property’s initial value.</p>
+        </div>
+      </div>
+
+      <form>
+        <div class="form-group">
+        <div class="number-values">
+        <div class="input-group">
+          <label for="pixels">Pixels(px): </label>
+          <input type="number" class="form-control-file" id="pixels">
+        </div>
+        <br>
+        <div class="input-group">
+          <label for="rems">REM(rem): </label>
+          <input type="number" class="form-control-file" id="rems">
+        </div>
+        </div>
+        <br>
+        <div class="input-group">
+          <label for="inputtext">Text: </label>
+          <input type="text" class="form-control-file" id="inputtext" value="Hello World!">
+        </div>
+        <br>
+        <br>
+        <button class="btn btn-primary" type="submit">Calculate</button>
+        </div>
+      </form>
+      <br>
+      <br>
+      <br>
+      <div id="output"class="output">
+        <p></p>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
